@@ -24,7 +24,7 @@
               class="font-bold underline italic">dream</span>.</p>
           <div class="items-center justify-center gap-x-3 space-y-3 text-sm sm:flex sm:space-y-0">
             <a class="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 border border-transparent text-white text-sm font-medium rounded-full py-3 px-4 dark:focus:ring-offset-gray-800"
-              href="#">
+              href="https://discord.gg/GBpzzvsVZ8">
               <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                 fill="currentColor" viewBox="0 0 16 16">
                 <path
