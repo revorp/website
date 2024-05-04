@@ -15,9 +15,20 @@
             class="pointer-events-none absolute z-50 inline-flex items-center justify-center rounded-md px-3 py-1 italic opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 bg-slate-900 text-white min-h-6 text-xs left-1/2 -translate-x-1/2 after:absolute after:block after:size-0 after:border-8 after:border-transparent after:border-t-slate-900 after:-bottom-[0.95rem] after:left-1/2 after:-translate-x-1/2 top-[-2.25rem]">
             dream</span>
         </div> -->
+        <!--         <p
+          class="text-6xl md:text-9xl font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] bg-[length:200%_auto] animate-gradient">
+          Gradient Effect</p>
+        <p
+          class="text-6xl md:text-9xl font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.green.300),theme(colors.green.100),theme(colors.sky.400),theme(colors.yellow.200),theme(colors.sky.400),theme(colors.green.100),theme(colors.green.300))] bg-[length:200%_auto] animate-gradient">
+          Gradient Effect</p>
+        <p
+          class="text-6xl md:text-9xl font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.purple.400),theme(colors.purple.100),theme(colors.pink.300),theme(colors.orange.400),theme(colors.pink.300),theme(colors.purple.100),theme(colors.purple.400))] bg-[length:200%_auto] animate-gradient">
+          Gradient Effect</p>
+ -->
         <div class="space-y-5 animate-slidein">
           <h2 class="mx-auto text-4xl font-extrabold text-slate-50 md:text-5xl">revo
-            <br> <span class="bg-gradient-to-r from-blue-500 to-[#E114E5] bg-clip-text text-transparent">coming
+            <br> <span
+              class="bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] bg-[length:200%_auto] animate-gradient">coming
               soon</span>
           </h2>
           <p class="mx-auto max-w-2xl">a new way to roleplay in Italy, <a

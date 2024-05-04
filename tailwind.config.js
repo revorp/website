@@ -17,9 +17,13 @@ export default {
             transform: "translateY(0)",
           },
         },
+        gradient: {
+          to: { 'background-position': '200% center' },
+        },
       },
       animation: {
         slidein: "slidein 2s ease 300ms",
+        gradient: 'gradient 5s linear infinite',
       },
     },
   },
