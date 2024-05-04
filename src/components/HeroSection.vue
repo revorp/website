@@ -4,7 +4,7 @@
 <template>
   <section class="relative h-screen flex items-center justify-center">
     <div
-      class="absolute inset-0 m-auto h-80 max-w-lg bg-gradient-to-tr from-indigo-400 via-teal-900 to-[#C084FC] blur-[118px]">
+      class="absolute inset-0 m-auto h-80 max-w-lg bg-gradient-to-tr from-indigo-400 via-teal-900 to-[#C084FC] blur-[118px] animate-slidein">
     </div>
     <div class="relative mx-auto max-w-screen-xl gap-12 px-4 py-28 text-slate-400 md:px-8">
       <div class="mx-auto max-w-4xl text-center">
@@ -26,9 +26,9 @@
           Gradient Effect</p>
  -->
         <div class="space-y-5 animate-slidein">
-          <h2 class="mx-auto text-4xl font-extrabold text-slate-50 md:text-5xl">revo
+          <h2 class="mx-auto text-4xl font-extrabold text-slate-50"><span class="md:text-6xl">revo</span>
             <br> <span
-              class="bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] bg-[length:200%_auto] animate-gradient">coming
+              class="md:text-4xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] bg-[length:200%_auto] animate-gradient">coming
               soon</span>
           </h2>
           <p class="mx-auto max-w-2xl">a new way to roleplay in Italy, <a
