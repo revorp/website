@@ -1,8 +1,9 @@
 <script setup lang="ts">
+import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <section class="relative h-screen flex items-center justify-center">
+  <section class="h-screen flex items-center justify-center select-none">
     <div
       class="absolute inset-0 m-auto h-80 max-w-lg bg-gradient-to-tr from-indigo-400 via-teal-900 to-[#C084FC] blur-[118px] animate-slidein">
     </div>
@@ -40,6 +41,12 @@
           </p>
         </div>
       </div>
+      <!-- <div class="relative flex flex-col space-y-10 justify-center overflow-hidden py-6 sm:py-6 animate-slidein">
+        <RouterLink to="/apply"
+          class="bg-gradient-to-b w-max mx-auto text-slate-950 font-semibold from-slate-300 to-slate-100 px-4 py-2 rounded-2xl shadow-indigo-300 shadow-md border-b-4 hover border-slate-300 hover:shadow-sm transition-all duration-500">
+          apply
+          now</RouterLink>
+      </div> -->
     </div>
   </section>
 </template>
