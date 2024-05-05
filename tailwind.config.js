@@ -3,6 +3,9 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx,vue}",
+    './vueform.config.ts', // or where `vueform.config.js` is located. Change `.js` to `.ts` if required.
+    './node_modules/@vueform/vueform/themes/tailwind/**/*.vue',
+    './node_modules/@vueform/vueform/themes/tailwind/**/*.js',
   ],
   theme: {
     extend: {
@@ -23,9 +26,11 @@ export default {
       },
       animation: {
         slidein: "slidein 2s ease 300ms",
-        gradient: 'gradient 5s linear infinite',
+        gradient: 'gradient 4s linear infinite',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@vueform/vueform/tailwind'),
+  ],
 }
